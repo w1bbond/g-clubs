@@ -139,7 +139,32 @@ export default function Home() {
       </div>
 
       {/* content */}
-      <div></div>
+      <div className="container mx-auto">
+        <div className="py-12">
+          <p className="text-center text-3xl">旅行住宿</p>
+          <p className="mt-4 text-center text-coffee text-xl">甄选酒店，加入酒店旅行相关内容</p>
+        </div>
+        <div className="grid grid-cols-3 gap-5">
+          <div className="bg-coffee1 relative flex justify-center text-center items-center" style={{ minHeight: 230 }}>
+            1
+          </div>
+          <div className="bg-coffee1 relative flex justify-center text-center items-center" style={{ minHeight: 230 }}>
+            2
+          </div>
+          <div className="bg-coffee1 relative flex justify-center text-center items-center" style={{ minHeight: 230 }}>
+            3
+          </div>
+          <div className="bg-coffee1 relative flex justify-center text-center items-center" style={{ minHeight: 230 }}>
+            4
+          </div>
+          <div className="bg-coffee1 relative flex justify-center text-center items-center" style={{ minHeight: 230 }}>
+            5
+          </div>
+          <div className="bg-coffee1 relative flex justify-center text-center items-center" style={{ minHeight: 230 }}>
+            6
+          </div>
+        </div>
+      </div>
       <footer></footer>
     </div>
   );

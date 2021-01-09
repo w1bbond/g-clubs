@@ -10,6 +10,7 @@ module.exports = {
       },
       colors: {
         coffee: "#96795D",
+        coffee1: "#DFD7CE",
       },
       zIndex: {
         negative: "-1",
