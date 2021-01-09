@@ -130,6 +130,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* background image switch button  */}
+        <div className="absolute bottom-8 flex space-x-4" style={{ left: 'calc(50% - 72px'}}>
+          <div className="cursor-pointer w-4 h-4 rounded-full bg-white bg-opacity-100"></div>
+          <div className="cursor-pointer w-4 h-4 rounded-full bg-white bg-opacity-50"></div>
+          <div className="cursor-pointer w-4 h-4 rounded-full bg-white bg-opacity-50"></div>
+          <div className="cursor-pointer w-4 h-4 rounded-full bg-white bg-opacity-50"></div>
+          <div className="cursor-pointer w-4 h-4 rounded-full bg-white bg-opacity-50"></div>
+        </div>
         {/* background image */}
         <img
           alt="banner"
