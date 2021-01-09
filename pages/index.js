@@ -97,19 +97,19 @@ export default function Home() {
           <div className="flex items-center py-4 px-5 bg-black bg-opacity-70">
             <div className="flex space-x-6">
               <label>
-                <div className="text-white mb-2">城市/国家</div>
+                <div className="text-white mb-1">城市/国家</div>
                 <input className="h-8 px-3" placeholder="城市或国家名" />
               </label>
               <label>
-                <div className="text-white mb-2">入住时间</div>
+                <div className="text-white mb-1">入住时间</div>
                 <input className="h-8 px-3" placeholder="日期" />
               </label>
               <label>
-                <div className="text-white mb-2">退房时间</div>
+                <div className="text-white mb-1">退房时间</div>
                 <input className="h-8 px-3" placeholder="日期" />
               </label>
               <label>
-                <div className="text-white mb-2">房间数/宾客数</div>
+                <div className="text-white mb-1">房间数/宾客数</div>
                 <input className="h-8 px-3" placeholder="1 / 2 / 1" />
               </label>
             </div>
