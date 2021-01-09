@@ -87,44 +87,55 @@ export default function Home() {
         </nav>
       </div>
       {/* banner */}
-      <div className="relative" style={{ height: 585 }}>
+      <div className="relative items-center flex h-screen" style={{ maxHeight: 585 }}>
         {/* background */}
-        <img
-          alt="banner"
-          className="absolute left-0 top-0 w-full h-full object-cover"
-          src="https://images.unsplash.com/photo-1540202404-a2f29016b523?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2090&q=80"
-        />
 
         {/* search bar */}
-        <div className="absolute w-full top-11">
-          <div className="container mx-auto">
-            <div className="flex justify-center">
-              <div className="flex items-center py-4 px-5 bg-black bg-opacity-70">
-                <div className="flex space-x-6">
-                  <label>
-                    <div className="text-white mb-2">城市/国家</div>
-                    <input className="h-8 px-3" placeholder="城市或国家名" />
-                  </label>
-                  <label>
-                    <div className="text-white mb-2">入住时间</div>
-                    <input className="h-8 px-3" placeholder="日期" />
-                  </label>
-                  <label>
-                    <div className="text-white mb-2">退房时间</div>
-                    <input className="h-8 px-3" placeholder="日期" />
-                  </label>
-                  <label>
-                    <div className="text-white mb-2">房间数/宾客数</div>
-                    <input className="h-8 px-3" placeholder="1 / 2 / 1" />
-                  </label>
-                </div>
-                <div className="ml-4">
-                  <button className="text-2xl bg-coffee text-white py-3 px-9">搜索</button>
-                </div>
-              </div>
+        <div className="absolute top-11" style={{ left: "calc(50% - 514px)" }}>
+          <div className="flex items-center py-4 px-5 bg-black bg-opacity-70">
+            <div className="flex space-x-6">
+              <label>
+                <div className="text-white mb-2">城市/国家</div>
+                <input className="h-8 px-3" placeholder="城市或国家名" />
+              </label>
+              <label>
+                <div className="text-white mb-2">入住时间</div>
+                <input className="h-8 px-3" placeholder="日期" />
+              </label>
+              <label>
+                <div className="text-white mb-2">退房时间</div>
+                <input className="h-8 px-3" placeholder="日期" />
+              </label>
+              <label>
+                <div className="text-white mb-2">房间数/宾客数</div>
+                <input className="h-8 px-3" placeholder="1 / 2 / 1" />
+              </label>
+            </div>
+            <div className="ml-4">
+              <button className="text-2xl bg-coffee text-white py-3 px-9">搜索</button>
             </div>
           </div>
         </div>
+
+        <div className="container mx-auto items-center flex flex-wrap">
+          <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
+            <div className="pt-32 sm:pt-0">
+              <h2 className="text-4xl text-white">马尔代夫加入内容度假村</h2>
+              <p className="mt-4 text-lg leading-relaxed text-white">
+                加入度假村介绍内容，加入独家吨介绍内容，加入内容
+              </p>
+              <a className="inline-block mt-10 text-white" href="#">
+                查看全球酒店度假村
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* background image */}
+        <img
+          alt="banner"
+          className="absolute left-0 top-0 w-full h-full object-cover z-negative"
+          src="https://images.unsplash.com/photo-1548678928-070e09a5c847?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80"
+        />
       </div>
 
       {/* content */}

@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         coffee: "#96795D",
       },
+      zIndex: {
+        negative: "-1",
+      },
     },
   },
   variants: {
